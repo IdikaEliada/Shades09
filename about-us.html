@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us | Sombreiro Energy Limited</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    /* About Us Section Styling */
+    #about {
+      background: linear-gradient(135deg, #e6f9f2 0%, #f8fafc 100%);
+      padding: 4rem 0 3rem 0;
+      border-radius: 0 0 2rem 2rem;
+      box-shadow: 0 8px 32px rgba(4,91,98,0.07);
+    }
+
+    #about .section-title {
+      color: #009500;
+      font-family: 'Sora', Arial, sans-serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 1.5rem;
+    }
+
+    #about ul {
+      padding-left: 0;
+      margin-bottom: 2rem;
+    }
+
+    #about li {
+      font-size: 1.1rem;
+      margin-bottom: 1.1rem;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    #about li i {
+      margin-right: 0.7rem;
+      color: #009500;
+      font-size: 1.2rem;
+      margin-top: 0.2rem;
+    }
+
+    #about p,
+    #about li {
+      color: #222;
+    }
+
+    #about .fw-bold {
+      color: #045b62 !important;
+    }
+
+    #about canvas {
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 4px 24px rgba(0,181,0,0.07);
+      padding: 1rem;
+      margin-top: 1.5rem;
+      max-width: 100%;
+    }
+
+    @media (max-width: 767px) {
+      #about {
+        padding: 2rem 0 1.5rem 0;
+        border-radius: 0 0 1rem 1rem;
+      }
+      #about .section-title {
+        font-size: 2rem;
+      }
+      #about canvas {
+        margin-top: 1rem;
+        padding: 0.5rem;
+      }
+    }
+   /* Introduction Section Styling */
+#about-intro {
+  background: linear-gradient(120deg, #e6f9f2 0%, #f8fafc 100%);
+  padding: 3.5rem 0 2.5rem 0;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 4px 24px rgba(0,181,0,0.07);
+}
+
+#about-intro .section-title {
+  color: #009500;
+  font-family: 'Sora', Arial, sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 1.2rem;
+}
+
+#about-intro {
+  margin-top: 80px; /* Adjust this value to match your navbar height */
+}
+#about-intro {
+  padding-top: 100px; /* Adjust as needed */
+}
+
+
+#about-intro p {
+  color: #222;
+  font-size: 1.18rem;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  #about-intro {
+    padding: 2rem 0 1.2rem 0;
+    border-radius: 0 0 1rem 1rem;
+  }
+  #about-intro .section-title {
+    font-size: 2rem;
+  }
+  #about-intro p {
+    font-size: 1rem;
+  }
+} 
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html#hero">
+        <img src="https://sombreiroenergy.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-19-at-9.06.48-PM-230x300.jpeg" alt="Logo" style="height:40px;">
+        <span class="ms-2">Sombreiro Energy Limited</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about-us.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#projects-showcase">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#testimonial-april-hospital">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<main>
+  <!-- Introduction Section -->
+<section id="about-intro" class="py-5 bg-white animated-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 text-center">
+        <h1 class="section-title mb-3" style="color:#009500;">Welcome to Sombreiro Energy Limited</h1>
+        <p style="font-size:1.2rem; color:#222;">
+         As a Leading Renewable Energy Solutions Providing Company in Nigeria Empowering both Urban and Rural Communities to harness the Power of the Sun in generating Electricity,
+our mission is to bridge the Energy gap in the Country by providing Clean, Reliable, Sustainable and Affordable Energy Solutions for our clients Homes, Businesses and Communities.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- About Us Section -->
+  <section id="about" class="py-5 bg-light animated-section" style="margin-top:70px;">
+    <div class="container">
+      <div class="row align-items-center flex-md-row flex-column">
+        <div class="col-md-6 order-2 order-md-1 d-flex flex-column justify-content-center">
+          <h2 class="section-title text-start mb-4" style="color:#045b62;">Who We Are</h2>
+          <p style="color:#111;">
+            <strong>Sombreiro Energy Limited</strong> is a leading Nigerian energy solutions provider, incorporated in 2018. We are dedicated to delivering innovative, sustainable, and cost-effective energy services to businesses, communities, and educational institutions across Nigeria and West Africa.
+          </p>
+          <p style="color:#111;">
+            Our team is made up of experienced engineers, project managers, and renewable energy specialists who are passionate about driving the transition to clean energy. We pride ourselves on our technical expertise, customer-centric approach, and commitment to excellence.
+          </p>
+          <ul class="list-unstyled mb-4" style="color:#111;">
+            <li>
+              <i class="fa fa-check-circle text-success me-2"></i>
+              <strong>Engineering, Procurement, & Construction (EPC):</strong> We deliver high-quality engineering solutions for petrochemical, oil & gas, water, and power industries.
+            </li>
+            <li>
+              <i class="fa fa-check-circle text-success me-2"></i>
+              <strong>Renewable Energy Solutions:</strong> We design, market, and install solar power systems for homes, businesses, and schools, ensuring clean and reliable energy access.
+            </li>
+            <li>
+              <i class="fa fa-check-circle text-success me-2"></i>
+              <strong>Energy Trading:</strong> We source and market refined petroleum products and liquefied natural gas (LNG) to meet the growing energy demands of our clients.
+            </li>
+            <li>
+              <i class="fa fa-check-circle text-success me-2"></i>
+              <strong>Supporting Schools:</strong> We empower educational institutions with reliable solar power, energy efficiency audits, and training for staff and students.
+            </li>
+          </ul>
+          <h4 class="fw-bold mt-4 mb-2" style="color:#009500;">Our Mission</h4>
+          <p style="color:#111;">
+            To provide sustainable and innovative energy solutions that empower communities, drive economic growth, and protect our environment for future generations.
+          </p>
+          <h4 class="fw-bold mt-4 mb-2" style="color:#009500;">Our Vision</h4>
+          <p style="color:#111;">
+            To be the leading force in Africa’s transition to clean, reliable, and affordable energy.
+          </p>
+          <h4 class="fw-bold mt-4 mb-2" style="color:#009500;">Our Values</h4>
+          <ul class="list-unstyled mb-4" style="color:#111;">
+            <li><i class="fa fa-leaf text-success me-2"></i> Sustainability</li>
+            <li><i class="fa fa-users text-success me-2"></i> Integrity & Teamwork</li>
+            <li><i class="fa fa-lightbulb text-success me-2"></i> Innovation</li>
+            <li><i class="fa fa-handshake text-success me-2"></i> Customer Focus</li>
+            <li><i class="fa fa-award text-success me-2"></i> Excellence</li>
+          </ul>
+          <p class="mt-3" style="color:#111;">
+            <span class="fw-bold" style="color:#045b62;">Our Impact:</span><br>
+            Since our inception, we have powered over 60 schools, 100+ businesses, and numerous homes with clean solar energy, reducing carbon emissions and supporting Nigeria’s sustainable development goals.
+          </p>
+        </div>
+        <div class="col-md-6 order-1 order-md-2 d-flex flex-column align-items-center justify-content-center">
+          <div class="w-100 d-flex flex-column align-items-center position-relative" style="height:100%;">
+            <canvas id="aboutLineGraph" width="380" height="220"></canvas>
+            <p class="text-center mt-3" style="color:#666;">
+              <small>Growth in solar energy usage and efficiency (2018–2024)</small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Team Section -->
+      <div class="row mt-5">
+        <h3 class="section-title mb-4 text-center">Meet Our Team</h3>
+        <div class="col-md-3 text-center mb-4">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle mb-2" style="width:120px;height:120px;object-fit:cover;" alt="CEO">
+          <h5 class="fw-bold mb-0">Engr. John Okoro</h5>
+          <small class="text-muted">Chief Executive Officer</small>
+        </div>
+        <div class="col-md-3 text-center mb-4">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle mb-2" style="width:120px;height:120px;object-fit:cover;" alt="COO">
+          <h5 class="fw-bold mb-0">Mrs. Adaeze Nwosu</h5>
+          <small class="text-muted">Chief Operations Officer</small>
+        </div>
+        <div class="col-md-3 text-center mb-4">
+          <img src="https://randomuser.me/api/portraits/men/65.jpg" class="rounded-circle mb-2" style="width:120px;height:120px;object-fit:cover;" alt="Lead Engineer">
+          <h5 class="fw-bold mb-0">Engr. Musa Ibrahim</h5>
+          <small class="text-muted">Lead Engineer</small>
+        </div>
+        <div class="col-md-3 text-center mb-4">
+          <img src="https://randomuser.me/api/portraits/women/68.jpg" class="rounded-circle mb-2" style="width:120px;height:120px;object-fit:cover;" alt="Renewable Specialist">
+          <h5 class="fw-bold mb-0">Ms. Chidinma Eze</h5>
+          <small class="text-muted">Renewable Energy Specialist</small>
+        </div>
+      </div>
+      <!-- Certifications & Awards -->
+      <div class="row mt-5">
+        <h3 class="section-title mb-4 text-center">Certifications & Awards</h3>
+        <div class="col-md-4 text-center mb-4">
+          <i class="fa fa-certificate fa-3x text-success mb-2"></i>
+          <h6 class="fw-bold">ISO 9001:2015 Certified</h6>
+          <p class="small text-muted">Quality Management Systems</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <i class="fa fa-trophy fa-3x text-warning mb-2"></i>
+          <h6 class="fw-bold">African Energy Awards 2023</h6>
+          <p class="small text-muted">Best Renewable Energy Project</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <i class="fa fa-medal fa-3x text-primary mb-2"></i>
+          <h6 class="fw-bold">Nigerian Solar Association</h6>
+          <p class="small text-muted">Member in Good Standing</p>
+        </div>
+      </div>
+      <!-- Client Testimonials -->
+      <div class="row mt-5">
+        <h3 class="section-title mb-4 text-center">What Our Clients Say</h3>
+        <div class="col-md-6 mb-4">
+          <div class="bg-white p-4 rounded shadow-sm h-100">
+            <p class="mb-2" style="font-size:1.1rem;">
+              <i class="fas fa-quote-left text-success"></i>
+              With Sombreiro Energy’s solar installation, our school now enjoys uninterrupted power and reduced energy costs. The team was professional and supportive throughout.
+            </p>
+            <div class="d-flex align-items-center">
+              <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle me-2" style="width:40px;height:40px;object-fit:cover;" alt="Testimonial">
+              <div>
+                <span class="fw-bold">Principal Okafor</span><br>
+                <small class="text-muted">Sunrise Academy, Rivers State</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="bg-white p-4 rounded shadow-sm h-100">
+            <p class="mb-2" style="font-size:1.1rem;">
+              <i class="fas fa-quote-left text-success"></i>
+              Their energy audit and upgrade helped us cut down on waste and improve efficiency. Highly recommended!
+            </p>
+            <div class="d-flex align-items-center">
+              <img src="https://randomuser.me/api/portraits/women/22.jpg" class="rounded-circle me-2" style="width:40px;height:40px;object-fit:cover;" alt="Testimonial">
+              <div>
+                <span class="fw-bold">Mrs. Amina Bello</span><br>
+                <small class="text-muted">Business Owner, Abuja</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project Photos -->
+      <div class="row mt-5">
+        <h3 class="section-title mb-4 text-center">Project Gallery</h3>
+        <div class="col-md-3 mb-4">
+          <img src="https://sombreiroenergy.com/wp-content/uploads/2024/07/IMG_20240703_181413_130-300x300.jpg" class="img-fluid rounded shadow-sm" alt="Project 1">
+        </div>
+        <div class="col-md-3 mb-4">
+          <img src="https://sombreiroenergy.com/wp-content/uploads/2025/01/IMG_20241018_103121_775-300x300.jpg" class="img-fluid rounded shadow-sm" alt="Project 2">
+        </div>
+        <div class="col-md-3 mb-4">
+          <img src="https://sombreiroenergy.com/wp-content/uploads/2025/01/IMG_20241018_065418_210-300x300.jpg" class="img-fluid rounded shadow-sm" alt="Project 3">
+        </div>
+        <div class="col-md-3 mb-4">
+          <img src="https://sombreiroenergy.com/wp-content/uploads/2025/01/IMG_20241109_214903_939-300x300.jpg" class="img-fluid rounded shadow-sm" alt="Project 4">
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+  <!-- Optional: Add more about/team/mission/vision sections here -->
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Chart.js Line Graph Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const ctx = document.getElementById('aboutLineGraph');
+      if (ctx && typeof Chart !== 'undefined') {
+        new Chart(ctx, {
+          type: 'line',
+          data: {
+            labels: ['2018', '2019', '2020', '2021', '2022', '2023', '2024'],
+            datasets: [
+              {
+                label: 'Solar Usage (kWh)',
+                data: [1000, 2500, 5000, 9000, 15000, 22000, 30000],
+                borderColor: '#045b62',
+                backgroundColor: 'rgba(4,91,98,0.08)',
+                tension: 0.4,
+                fill: true,
+                pointBackgroundColor: '#045b62',
+                pointBorderColor: '#fff',
+                pointRadius: 4
+              },
+              {
+                label: 'Efficiency (%)',
+                data: [60, 65, 68, 70, 73, 75, 78],
+                borderColor: '#00b500',
+                backgroundColor: 'rgba(0,181,0,0.08)',
+                tension: 0.4,
+                fill: false,
+                yAxisID: 'y1',
+                pointBackgroundColor: '#00b500',
+                pointBorderColor: '#fff',
+                pointRadius: 4
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: { display: true }
+            },
+            scales: {
+              x: {
+                title: { display: true, text: 'Year' }
+              },
+              y: {
+                title: { display: true, text: 'Solar Usage (kWh)' },
+                beginAtZero: true
+              },
+              y1: {
+                position: 'right',
+                title: { display: true, text: 'Efficiency (%)' },
+                min: 50,
+                max: 100,
+                grid: { drawOnChartArea: false }
+              }
+            }
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

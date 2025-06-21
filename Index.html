@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sombreiro Energy Limited</title>
+  <meta name="description" content="Sombreiro Energy Limited – Powering Nigeria’s Future with Cutting-Edge Energy Solutions.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Add to your style.css for better effect */
+    
+  </style>
+</head>
+<body>
+  <!-- Modal -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Our Full Service Range</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+
+          <div class="row mb-4">
+      
+            <div class="col-12 col-lg-7">
+              <h6 class="fw-bold mb-2" style="letter-spacing:1px;">OUR SERVICES</h6>
+              <h1 class="fw-bold mb-0" style="font-size:3.2rem;letter-spacing:1px;">OUR EXPERT SERVICE<br>RANGE</h1>
+            </div>
+            <div class="col-12 col-lg-5 d-flex flex-column justify-content-center">
+              <div class="d-flex align-items-center justify-content-lg-end mb-2">
+                <span class="me-2" style="font-size:1.25rem;">Expertise and Experience</span>
+                <img src="https://sombreiroenergy.com/wp-content/themes/contrax-lite/assets/img/arrow-up-right.svg" alt="" style="width:28px;">
+              </div>
+              <div class="d-flex align-items-center justify-content-lg-end">
+                <span class="me-2" style="font-size:1.25rem;">Sustainability and Safety Commitment</span>
+                <img src="https://sombreiroenergy.com/wp-content/themes/contrax-lite/assets/img/arrow-up-right.svg" alt="" style="width:28px;">
+              </div>
+            </div>
+          </div>
+          <div class="row g-4 align-items-stretch">
+            <!-- Engineering & Construction -->
+            <div class="d-flex">
+              <div class="service-card flex-fill text-center p-4 h-100" style="background:#f4f4f4; border:2px solid #fff;">
+                <div class="mb-3">
+                  <i class="fas fa-hard-hat" style="font-size:3rem;color:#00b500;"></i>
+                </div>
+                <h5 class="fw-bold mb-2" style="font-size:1.35rem;text-align:center;">Engineering & Construction</h5>
+                <p class="mb-0" style="color:#6b7675;">
+                  We provide feasibility studies, conceptual design, civil construction, electrical and mechanical works, and waste management services to ensure efficient project execution.
+                </p>
+              </div>
+            </div>
+            <!-- Vertical Divider -->
+            <div class="d-none d-md-flex align-items-center" style="width:2px; background:#e0e0e0; margin:0 0.5rem; height:auto;"></div>
+            <!-- Energy Trading & Supply -->
+            <div class="d-flex">
+              <div class="service-card flex-fill text-center p-4 h-100" style="background:#f4f4f4; border:2px solid #fff;">
+                <div class="mb-3">
+                  <i class="fas fa-exchange-alt" style="font-size:3rem;color:#00b500;"></i>
+                </div>
+                <h5 class="fw-bold mb-2" style="font-size:1.35rem;text-align:center;">Energy Trading & Supply</h5>
+                <p class="mb-0" style="color:#6b7675;">
+                  Our expertise in energy trading allows us to source and distribute high-quality petroleum products and LNG, ensuring competitive pricing and seamless supply chain management.
+                </p>
+              </div>
+            </div>
+            <!-- Vertical Divider -->
+            <div class="d-none d-md-flex align-items-center" style="width:2px; background:#e0e0e0; margin:0 0.5rem; height:auto;"></div>
+            <!-- Renewable Energy Solutions -->
+            <div class="d-flex">
+              <div class="service-card flex-fill text-start p-4 h-100" style="background:#00b500;color:#fff;">
+                <div class="mb-3">
+                  <i class="fas fa-solar-panel" style="font-size:3rem;color:#fff;"></i>
+                </div>
+                <h5 class="fw-bold mb-2" style="font-size:1.35rem;text-align:left;">Renewable Energy Solutions</h5>
+                <p class="mb-2" style="color:#fff;">
+                  We specialize in solar energy systems, offering:
+                </p>
+                <ul class="ps-3" style="color:#fff;">
+                  <li>Training programs for solar energy installers and entrepreneurs.</li>
+                  <li><b>Sales and distribution of solar panels, inverters, batteries, and accessories.</b></li>
+                  <li>Installation of solar power systems ranging from 1KVA to 100KVA.</li>
+                  <li>Energy audits and maintenance services.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Corrected Navbar Links -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#hero">
+      <img src="https://sombreiroenergy.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-19-at-9.06.48-PM-230x300.jpeg" alt="Logo">
+      <span>Sombreiro Energy Limited</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects-showcase">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonial-april-hospital">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Hero Carousel -->
+  <section id="hero" class="pt-5 animated-section">
+    <div id="mainHeroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="20240122134043_IMG_2369.JPG" class="d-block w-100" alt="Solar Panels">
+          <div class="carousel-caption text-start">
+            <h1 class="fw-bold">Innovative Energy Solutions
+for a Sustainable Future</h1>
+            <p>Powering Africa’s Future Through Innovative, Trade-Boosting Energy Solutions
+
+Welcome to Sombreiro Energy Limited, a leading energy company committed to delivering cutting-edge solutions in engineering, 
+energy trading, marine logistics, and renewable energy. With a strong presence in Nigeria’s energy sector, we provide reliable, sustainable, and cost-effective energy solutions tailored to businesses and communities..</p>
+            <a href="#services" class="btn btn-primary">Explore Our Services</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1505839673365-e3971f8d9184?auto=format&fit=crop&w=1200&q=80" class="d-block w-100" alt="Solar Systems">
+          <div class="carousel-caption text-start">
+            <h1 class="fw-bold">Sustainable Solar Systems</h1>
+            <p>Solar energy design, installation, and maintenance for all sectors.</p>
+            <a href="#services" class="btn btn-primary">Go Solar Today</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="sales-consultants-sitting-multi-monitor-workstation-while-discussing-about-stock-market-positive-trend-investment-company-coworkers-talking-about-real-time-financial-data-analysis-report.jpg" class="d-block w-100" alt="Engineering Project">
+          <div class="carousel-caption text-start">
+            <h1 class="fw-bold">Engineering & EPC Services</h1>
+            <p>Efficient solutions for engineering and energy projects.</p>
+            <a href="#services" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#mainHeroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mainHeroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-light animated-section">
+    <div class="container">
+      <div class="row align-items-center flex-md-row flex-column">
+        <!-- Text Column First on Desktop -->
+        <div class="col-md-6 order-2 order-md-1 d-flex flex-column justify-content-center" style="height:100%;">
+          <h2 class="section-title text-start mb-4" style="color:#045b62;">Who We Are</h2>
+          <p style="color:#111;">
+            <strong>Sombreiro Energy Limited</strong> was incorporated in 2018 and has since grown into a diversified energy company specializing in:
+          </p>
+          <ul class="list-unstyled mb-4" style="color:#111;">
+           <li>
+              <i class="fa fa-check-circle text-success me-2"></i>
+              <strong>Engineering, Procurement, & Construction (EPC):</strong> Delivering high-quality engineering solutions across petrochemical, oil and gas, water, and power industries.
+            </li>
+             <li>
+              <i class="fa fa-check-circle text-success me-2"></i>
+              <strong>Renewable Energy Solutions:</strong> Designing, marketing, and installing solar power systems for homes, businesses, and industries, ensuring clean and sustainable energy access.
+            </li>
+            <li>
+              <i class="fa fa-check-circle text-success me-2"></i>
+              <strong>Energy Trading:</strong> Sourcing and marketing refined petroleum products and liquefied natural gas (LNG) to meet the growing energy demands of businesses and industries.
+            </li>
+           
+          </ul>
+          <p class="mt-3" style="color:#111;">
+            <span class="fw-bold" style="color:#045b62;">Renewable energy adoption has increased globally,</span><br>
+            Carbon emissions from fossil fuels must be reduced by 45% by 2030 to meet global climate goals.
+          </p>
+          <a href="#contact" class="btn btn-primary mt-2">Contact Us</a>
+        </div>
+        <!-- Image & Pie Chart Column Second on Desktop -->
+        <div class="col-md-6 order-1 order-md-2 d-flex flex-column align-items-center justify-content-center position-relative">
+          <div class="w-100 d-flex flex-column align-items-center position-relative" style="height:100%;">
+            <div class="position-relative w-100 d-flex justify-content-center align-items-center" style="max-width:420px; min-height:320px;">
+              <img src="view-nuclear-power-plant-with-towers-letting-out-steam-from-process.jpg"
+                class="img-fluid rounded shadow w-100"
+                alt="About Sombreiro Energy"
+                style="object-fit:cover; max-height:420px; min-height:220px; aspect-ratio:4/3;">
+            </div>
+            <!-- About Section Line Graph: Solar Energy Usage and Efficiency -->
+            <div class="w-100 d-flex flex-column align-items-center position-relative" style="height:100%;">
+              <canvas id="aboutLineGraph" width="380" height="220"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Commitment to Excellence Section -->
+  <div class="commitment-excellence-section py-5 animated-section">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-2" style="font-size:2.5rem;letter-spacing:1px;">OUR COMMITMENT TO EXCELLENCE</h2>
+      <p class="text-center mb-5" style="font-size:1.15rem;color:#444;">At Sombreiro Energy Limited, we prioritize:</p>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="mb-4 d-flex align-items-start">
+            <div class="commitment-number me-3">01</div>
+            <div>
+              <span class="fw-bold" style="font-size:1.2rem;">Innovation:</span><br>
+              <span style="color:#555;">Driving technological advancements in energy solutions</span>
+            </div>
+          </div>
+          <div class="mb-4 d-flex align-items-start">
+            <div class="commitment-number me-3">02</div>
+            <div>
+              <span class="fw-bold" style="font-size:1.2rem;">Customer Satisfaction:</span><br>
+              <span style="color:#555;">Delivering tailored services that exceed expectations.</span>
+            </div>
+          </div>
+          <div class="mb-4 d-flex align-items-start">
+            <div class="commitment-number me-3">03</div>
+            <div>
+              <span class="fw-bold" style="font-size:1.2rem;">Trade Empowerment:</span><br>
+              <span style="color:#555;">Strengthening Nigeria’s energy market through strategic partnerships and efficient logistics.</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="https://sombreiroenergy.com/wp-content/uploads/2024/07/IMG_20240629_180510_505-300x300.jpg" alt="Solar Project" class="img-fluid rounded shadow" style="max-width:95%;min-height:260px;object-fit:cover;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5 bg-white animated-section">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-12 col-lg-7">
+        <h6 class="fw-bold mb-2" style="letter-spacing:1px;">OUR SERVICES</h6>
+        <h1 class="fw-bold mb-0" style="font-size:3.2rem;letter-spacing:1px;">OUR EXPERT SERVICE<br>RANGE</h1>
+      </div>
+      <div class="col-12 col-lg-5 d-flex flex-column justify-content-center">
+        <div class="d-flex align-items-center justify-content-lg-end mb-2">
+          <span class="me-2" style="font-size:1.25rem;">Expertise and Experience</span>
+          <img src="https://sombreiroenergy.com/wp-content/themes/contrax-lite/assets/img/arrow-up-right.svg" alt="" style="width:28px;">
+        </div>
+        <div class="d-flex align-items-center justify-content-lg-end">
+          <span class="me-2" style="font-size:1.25rem;">Sustainability and Safety Commitment</span>
+          <img src="https://sombreiroenergy.com/wp-content/themes/contrax-lite/assets/img/arrow-up-right.svg" alt="" style="width:28px;">
+        </div>
+      </div>
+    </div>
+    <div class="row g-4 align-items-stretch">
+      <!-- Engineering & Construction -->
+      <div class="col-md-4 d-flex">
+        <div class="service-card flex-fill text-center p-4 h-100" style="background:#f4f4f4; border:2px solid #fff;">
+          <div class="mb-3">
+            <i class="fas fa-hard-hat" style="font-size:3rem;color:#00b500;"></i>
+          </div>
+          <h5 class="fw-bold mb-2" style="font-size:1.35rem;text-align:center;">Engineering & Construction</h5>
+          <p class="mb-0" style="color:#6b7675;">
+            We provide feasibility studies, conceptual design, civil construction, electrical and mechanical works, and waste management services to ensure efficient project execution.
+          </p>
+        </div>
+      </div>
+      <!-- Vertical Divider -->
+      <div class="d-none d-md-flex align-items-center" style="width:2px; background:#e0e0e0; margin:0 0.5rem; height:auto;"></div>
+      <!-- Energy Trading & Supply -->
+      <div class="col-md-4 d-flex">
+        <div class="service-card flex-fill text-center p-4 h-100" style="background:#f4f4f4; border:2px solid #fff;">
+          <div class="mb-3">
+            <i class="fas fa-exchange-alt" style="font-size:3rem;color:#00b500;"></i>
+          </div>
+          <h5 class="fw-bold mb-2" style="font-size:1.35rem;text-align:center;">Energy Trading & Supply</h5>
+          <p class="mb-0" style="color:#6b7675;">
+            Our expertise in energy trading allows us to source and distribute high-quality petroleum products and LNG, ensuring competitive pricing and seamless supply chain management.
+          </p>
+        </div>
+      </div>
+      <!-- Vertical Divider -->
+      <div class="d-none d-md-flex align-items-center" style="width:2px; background:#e0e0e0; margin:0 0.5rem; height:auto;"></div>
+      <!-- Renewable Energy Solutions -->
+      <div class="col-md-4 d-flex">
+        <div class="service-card flex-fill text-start p-4 h-100" style="background:#00b500;color:#fff;">
+          <div class="mb-3">
+            <i class="fas fa-solar-panel" style="font-size:3rem;color:#fff;"></i>
+          </div>
+          <h5 class="fw-bold mb-2" style="font-size:1.35rem;text-align:left;">Renewable Energy Solutions</h5>
+          <p class="mb-2" style="color:#fff;">
+            We specialize in solar energy systems, offering:
+          </p>
+          <ul class="ps-3" style="color:#fff;">
+            <li>Training programs for solar energy installers and entrepreneurs.</li>
+            <li><b>Sales and distribution of solar panels, inverters, batteries, and accessories.</b></li>
+            <li>Installation of solar power systems ranging from 1KVA to 100KVA.</li>
+            <li>Energy audits and maintenance services.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div><!-- Add this button anywhere on your page, e.g. below your services summary -->
+<div class="text-center my-4">
+  <button class="btn btn-success fw-bold px-4 py-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    View All Services
+  </button> 
+</div>
+
+
+<!-- failed modal-->
+
+<div class="modal fade" id="servicesModal" tabindex="-1" aria-labelledby="servicesModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="servicesModalLabel">Our Full Service Range</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bg-light">
+        <!-- Place your services cards here, only once -->
+        <section id="services" class="py-4">
+          <div class="container">
+            <div class="row g-4 align-items-stretch">
+              <!-- Service Card 1 -->
+              <div class="col-md-4 d-flex">
+                <div class="service-card flex-fill text-center p-4 h-100" style="background:#f4f4f4; border:2px solid #fff;">
+                  <div class="mb-3">
+                    <i class="fas fa-hard-hat" style="font-size:3rem;color:#00b500;"></i>
+                  </div>
+                  <h5 class="fw-bold mb-2" style="font-size:1.35rem;">Engineering & Construction</h5>
+                  <p class="mb-0" style="color:#111;">
+                    We provide feasibility studies, conceptual design, civil construction, electrical and mechanical works, and waste management services to ensure efficient project execution.
+                  </p>
+                </div>
+              </div>
+              <!-- Service Card 2 -->
+              <div class="col-md-4 d-flex">
+                <div class="service-card flex-fill text-center p-4 h-100" style="background:#f4f4f4; border:2px solid #fff;">
+                  <div class="mb-3">
+                    <i class="fas fa-exchange-alt" style="font-size:3rem;color:#00b500;"></i>
+                  </div>
+                  <h5 class="fw-bold mb-2" style="font-size:1.35rem;">Energy Trading & Supply</h5>
+                  <p class="mb-0" style="color:#111;">
+                    Our expertise in energy trading allows us to source and distribute high-quality petroleum products and LNG, ensuring competitive pricing and seamless supply chain management.
+                  </p>
+                </div>
+              </div>
+              <!-- Service Card 3 -->
+              <div class="col-md-4 d-flex">
+                <div class="service-card flex-fill text-center p-4 h-100" style="background:#00b500;color:#fff;">
+                  <div class="mb-3">
+                    <i class="fas fa-solar-panel" style="font-size:3rem;color:#fff;"></i>
+                  </div>
+                  <h5 class="fw-bold mb-2" style="font-size:1.35rem;">Renewable Energy Solutions</h5>
+                  <p class="mb-2" style="color:#fff;">
+                    We specialize in solar energy systems, offering training, sales, installation, and maintenance for solar panels, inverters, and batteries.
+                  </p>
+                </div>
+              </div>
+              <!-- Add more service cards as needed -->
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+  
+        </section>
+      </div>
+    </div>
+  <!-- Service Modal -->
+  <div class="modal fade" id="serviceModal" tabindex="-1" aria-labelledby="serviceModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="serviceModalLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="serviceModalBody"></div>
+      </div>
+    </div>
+  </div>
+  
+
+ <!-- Testimonial Section styled like sombreiroenergy.com -->
+<section id="testimonial-april-hospital" class="py-5 animated-section" style="background:#fff;">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Testimonial Image -->
+      <div class="col-md-6 mb-4 mb-md-0 text-center">
+        <img src="https://sombreiroenergy.com/wp-content/uploads/2024/07/IMG-20240720-WA0029-263x300.jpg"
+             alt="April Hospital Solar Installation"
+             class="img-fluid rounded shadow"
+             style="max-width:380px;width:100%;height:auto;">
+      </div>
+      <!-- Testimonial Text -->
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <div>
+          <p class="fw-bold" style="font-size:2rem;line-height:1.2;color:#6b7675;">
+            “With a 20KVA solar power system now in place, we can confidently provide essential healthcare services without power disruptions.”
+          </p>
+          <div class="mt-4">
+            <span class="fw-bold" style="font-size:1.1rem;color:#222;">April Hospital,</span><br>
+            <span style="color:#7ca08e;font-size:1.05rem;letter-spacing:1px;">RIVERS STATE</span>
+          </div>
+          <div class="mt-4" style="font-size:3rem;color:#009500;">
+            <i class="fas fa-quote-left"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Projects Showcase Section -->
+  <section id="projects-showcase" class="bg-dark text-white py-5 animated-section" style="overflow-x:hidden;">
+    <div class="container">
+      <h3 class="fw-bold mb-4 text-center" style="font-size:2rem;letter-spacing:1px;">PROJECT SHOWCASE</h3>
+      <div id="projectShowcaseCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+          <!-- Project 1 -->
+          <div class="carousel-item active">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <img src="https://sombreiroenergy.com/wp-content/uploads/2024/07/IMG_20240703_181413_130-300x300.jpg" alt="Skyloft Hotel Solar" class="d-block w-100 rounded shadow" style="max-width:100%;height:300px;object-fit:cover;">
+              </div>
+              <div class="col-12 col-md-6">
+                <h4 class="fw-bold mb-2" style="font-size:1.15rem;">Skyloft Hotel & Resort, Rivers State – 20KVA Solar Power Installation</h4>
+                <p style="font-size:1rem;">A premium hospitality business now enjoys uninterrupted power, reducing operational costs and enhancing guest comfort.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="carousel-item">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <img src="https://sombreiroenergy.com/wp-content/uploads/2025/01/IMG_20241018_103121_775-300x300.jpg" alt="Ahoada Solar" class="d-block w-100 rounded shadow" style="max-width:100%;height:300px;object-fit:cover;">
+              </div>
+              <div class="col-12 col-md-6">
+                <h4 class="fw-bold mb-2" style="font-size:1.15rem;">Ahoada Local Government Area, Rivers State <br>
+                  – 2.5KVA Solar System</h4>
+                <p style="font-size:1rem;">This installation has strengthened local government services by providing reliable electricity for office operations and essential services.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="carousel-item">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <img src="https://sombreiroenergy.com/wp-content/uploads/2025/01/IMG_20241018_065418_210-300x300.jpg" alt="Udu Solar" class="d-block w-100 rounded shadow" style="max-width:100%;height:300px;object-fit:cover;">
+              </div>
+              <div class="col-12 col-md-6">
+                <h4 class="fw-bold mb-2" style="font-size:1.15rem;">Udu Local Government Area, Delta State <br>– 5KVA Solar System</h4>
+                <p style="font-size:1rem;">Empowering businesses with stable power, reducing reliance on generators, and promoting sustainability within the community.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Project 4 -->
+          <div class="carousel-item">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <img src="https://sombreiroenergy.com/wp-content/uploads/2025/01/IMG_20241109_214903_939-300x300.jpg" alt="April Hospital Solar" class="d-block w-100 rounded shadow" style="max-width:100%;height:300px;object-fit:cover;">
+              </div>
+              <div class="col-12 col-md-6">
+                <h4 class="fw-bold mb-2" style="font-size:1.15rem;">April Hospital, Rivers State <br>– 3KVA Solar System</h4>
+                <p style="font-size:1rem;">Stable electricity supports critical healthcare services, ensuring seamless medical operations and enhanced patient care.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#projectShowcaseCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#projectShowcaseCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators mt-4">
+          <button type="button" data-bs-target="#projectShowcaseCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#projectShowcaseCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#projectShowcaseCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#projectShowcaseCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="#" class="btn btn-warning fw-bold px-4 py-2" style="color:#222;font-size:1.1rem;border-radius:0 0.5rem 0.5rem 0;">VIEW ALL</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-white animated-section">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-4 d-flex">
+          <form class="w-100 bg-light p-4 rounded shadow-sm" id="contactForm">
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Full Name" name="name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Email" name="email" required>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" placeholder="Your Message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-sm w-100">Send Message</button>
+          </form>
+        </div>
+        <div class="col-lg-4 d-flex flex-column justify-content-between">
+          <div>
+            <h5><strong>Office</strong> </h5>
+            <p>
+              <strong>Energy HQ,</strong> <br>
+              No.7 April Close, by April Hospital, Off N.T.A/Ozuoba Road,<br>
+              Port Harcourt, Rivers State<br>
+              
+            </p>
+            <h5>Phone</h5>
+            <p>
+              <a href="tel:+2347064392262">+234-(0)706-439-2262</a><br>
+              <a href="tel:+2348162119527">+234-(0)816-211-9527</a>
+            </p>
+            <h5>Email</h5>
+            <p><a href="mailto:info@sombreiroenergy.com">info@sombreiroenergy.com</a></p>
+            <h5>Follow Us</h5>
+            <div class="social-icons mb-3">
+              <a href="https://facebook.com/sombreiroenergy" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://instagram.com/sombreiroenergy" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://twitter.com/sombreiroenergy" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex">
+          <div class="map-responsive w-100 rounded shadow-sm" style="min-height: 100%;">
+            <!-- Updated Google Map to show No.7 April Close, by April Hospital, Off N.T.A/Ozuoba Road, Port Harcourt, Rivers State -->
+            <iframe src="https://www.google.com/maps?q=No.7+April+Close,+by+April+Hospital,+Off+N.T.A/Ozuoba+Road,+Port+Harcourt,+Rivers+State,+Nigeria&output=embed"
+              width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Modal Structure for Services Page Pop-up -->
+<div class="modal fade" id="servicesModal" tabindex="-1" aria-labelledby="servicesModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="servicesModalLabel">Our Full Service Range</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bg-light">
+        <!-- Place your services cards here, only once -->
+        <section id="services" class="py-4">
+          <div class="container">
+            <div class="row g-4 align-items-stretch">
+              <!-- Service Card 1 -->
+              <div class="col-md-4 d-flex">
+                <div class="service-card flex-fill text-center p-4 h-100" style="background:#f4f4f4; border:2px solid #fff;">
+                  <div class="mb-3">
+                    <i class="fas fa-hard-hat" style="font-size:3rem;color:#00b500;"></i>
+                  </div>
+                  <h5 class="fw-bold mb-2" style="font-size:1.35rem;">Engineering & Construction</h5>
+                  <p class="mb-0" style="color:#111;">
+                    We provide feasibility studies, conceptual design, civil construction, electrical and mechanical works, and waste management services to ensure efficient project execution.
+                  </p>
+                </div>
+              </div>
+              <!-- Service Card 2 -->
+              <div class="col-md-4 d-flex">
+                <div class="service-card flex-fill text-center p-4 h-100" style="background:#f4f4f4; border:2px solid #fff;">
+                  <div class="mb-3">
+                    <i class="fas fa-exchange-alt" style="font-size:3rem;color:#00b500;"></i>
+                  </div>
+                  <h5 class="fw-bold mb-2" style="font-size:1.35rem;">Energy Trading & Supply</h5>
+                  <p class="mb-0" style="color:#111;">
+                    Our expertise in energy trading allows us to source and distribute high-quality petroleum products and LNG, ensuring competitive pricing and seamless supply chain management.
+                  </p>
+                </div>
+              </div>
+              <!-- Service Card 3 -->
+              <div class="col-md-4 d-flex">
+                <div class="service-card flex-fill text-center p-4 h-100" style="background:#00b500;color:#fff;">
+                  <div class="mb-3">
+                    <i class="fas fa-solar-panel" style="font-size:3rem;color:#fff;"></i>
+                  </div>
+                  <h5 class="fw-bold mb-2" style="font-size:1.35rem;">Renewable Energy Solutions</h5>
+                  <p class="mb-2" style="color:#fff;">
+                    We specialize in solar energy systems, offering training, sales, installation, and maintenance for solar panels, inverters, and batteries.
+                  </p>
+                </div>
+              </div>
+              <!-- Add more service cards as needed -->
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Contact Form Handling Script -->
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the default form submission
+
+      // Gather form data
+      var formData = {
+        name: this.name.value,
+        email: this.email.value,
+        message: this.message.value
+      };
+
+      // Send form data to the server
+      fetch('/send-contact', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(data)
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          alert('Your message has been sent successfully!');
+          this.reset();
+        } else {
+          alert('There was an error sending your message: ' + data.message);
+        }
+      })
+      .catch(error => {
+        alert('There was an error sending your message.');
+      });
+    });
+  </script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Service Modal dynamic content
+    const serviceModal = document.getElementById('serviceModal');
+    serviceModal.addEventListener('show.bs.modal', function (event) {
+      const button = event.relatedTarget;
+      const title = button.getAttribute('data-title');
+      const desc = button.getAttribute('data-description');
+      serviceModal.querySelector('.modal-title').textContent = title;
+      serviceModal.querySelector('.modal-body').textContent = desc;
+    });
+
+    // Responsive bar chart for About section
+    const ctx = document.getElementById('aboutStatsChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Solar Share', 'Efficient Buildings'],
+        datasets: [{
+          label: 'Percentage',
+          data: [27, 40],
+          backgroundColor: [
+            'rgba(0,191,174,0.85)',
+            'rgba(4,91,98,0.85)'
+          ],
+          borderRadius: 12,
+          barThickness: 48,
+          maxBarThickness: 60
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false },
+          tooltip: { enabled: true }
+        },
+        scales: {
+          x: {
+            grid: { display: false },
+            ticks: { color: '#045b62', font: { weight: 'bold' } }
+          },
+          y: {
+            beginAtZero: true,
+            max: 50,
+            ticks: { color: '#045b62', font: { weight: 'bold' }, stepSize: 10 },
+            grid: { color: '#e0e0e0' }
+          }
+        },
+        responsive: true,
+        maintainAspectRatio: false
+      }
+    });
+
+    // Line graph for About section
+    const lineCtx = document.getElementById('aboutLineGraph').getContext('2d');
+    new Chart(lineCtx, {
+      type: 'line',
+      data: {
+        labels: ['2019', '2020', '2021', '2022', '2023'],
+        datasets: [{
+          label: 'Growth in Renewable Energy Adoption',
+          data: [0, 5, 15, 25, 40],
+          backgroundColor: 'rgba(0,191,174,0.2)',
+          borderColor: '#00bfae',
+          borderWidth: 2,
+          fill: true,
+          tension: 0.4
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: true, position: 'top' },
+          tooltip: { enabled: true }
+        },
+        scales: {
+          x: {
+            grid: { display: false },
+            ticks: { color: '#045b62', font: { weight: 'bold' } }
+          },
+          y: {
+            beginAtZero: true,
+            max: 50,
+            ticks: { color: '#045b62', font: { weight: 'bold' }, stepSize: 10 },
+            grid: { color: '#e0e0e0' }
+          }
+        },
+        responsive: true,
+        maintainAspectRatio: false
+      }
+    });
+  </script>
+  <!-- Add Chart.js for the graph -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+window.addEventListener('DOMContentLoaded', function() {
+  var pie = document.getElementById('aboutStatsPie');
+  if (pie) {
+    new Chart(pie, {
+      type: 'pie',
+      data: {
+        labels: ['Solar Share', 'Efficient Buildings', 'Other'],
+        datasets: [{
+          data: [27, 40, 33],
+          backgroundColor: [
+            'rgba(0,191,174,0.85)',
+            'rgba(4,91,98,0.85)',
+            'rgba(230,230,230,0.85)'
+          ],
+          borderWidth: 2,
+          borderColor: '#fff'
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false },
+          tooltip: { enabled: true }
+        },
+        cutout: '0%',
+        responsive: false,
+        maintainAspectRatio: false
+      }
+    });
+  }
+});
+</script>
+<script>
+  // Animate sections on load and on scroll
+  function animateSections() {
+    const sections = document.querySelectorAll('.animated-section');
+    const trigger = window.innerHeight * 0.92;
+    sections.forEach(section => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top < trigger) {
+        section.classList.add('in-view');
+      }
+    });
+  }
+  window.addEventListener('DOMContentLoaded', animateSections);
+  window.addEventListener('scroll', animateSections);
+</script>
+<script>
+  // Line graph for Solar Energy Usage and Efficiency
+  document.addEventListener('DOMContentLoaded', function () {
+    const ctx = document.getElementById('aboutLineGraph');
+    if (ctx) {
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ['2018', '2019', '2020', '2021', '2022', '2023', '2024'],
+          datasets: [
+            {
+              label: 'Solar Usage (kWh)',
+              data: [1000, 2500, 5000, 9000, 15000, 22000, 30000],
+              borderColor: '#045b62',
+              backgroundColor: 'rgba(4,91,98,0.08)',
+              tension: 0.4,
+              fill: true,
+              pointBackgroundColor: '#045b62',
+              pointBorderColor: '#fff',
+              pointRadius: 4
+            },
+            {
+              label: 'Efficiency (%)',
+              data: [60, 65, 68, 70, 73, 75, 78],
+              borderColor: '#00b500',
+              backgroundColor: 'rgba(0,181,0,0.08)',
+              tension: 0.4,
+              fill: false,
+              yAxisID: 'y1',
+              pointBackgroundColor: '#00b500',
+              pointBorderColor: '#fff',
+              pointRadius: 4
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { display: true }
+          },
+          scales: {
+            x: {
+              title: { display: true, text: 'Year' }
+            },
+            y: {
+              title: { display: true, text: 'Solar Usage (kWh)' },
+              beginAtZero: true
+            },
+            y1: {
+              position: 'right',
+              title: { display: true, text: 'Efficiency (%)' },
+              min: 50,
+              max: 100,
+              grid: { drawOnChartArea: false }
+            }
+          }
+        }
+      });
+    }
+  });
+</script>
+</body>
+</html>
